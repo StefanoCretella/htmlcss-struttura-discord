@@ -3,3 +3,224 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: lightgray;
+    height: 60px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    background-color: rgba(173,216,230,255);
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-item-1{
+    background-color: gold;
+    height: 50%;
+    width: 20%;
+    border-style: dashed;
+    text-align: left;
+}
+
+.row-item-2{
+    background-color: gold;
+    height: 50%;
+    width: 20%;
+    border-bottom: dashed;
+    border-top: dashed;
+    text-align: center;
+}
+
+.row-item-3{
+    background-color: gold;
+    height: 50%;
+    width: 20%;
+    border-style: dashed;
+    text-align: right;
+}
+
+.container-2{
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: lightgray;
+    height: 600px;
+}
+
+.row-2{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    background-color: blue;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-block{
+    background-color: rgba(238,130,238,255);
+    height: 90%;
+    width: 40%;
+    border-style: dashed;
+}
+
+.container-3{
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: lightgray;
+    height: 600px;
+}
+
+.row-3{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    background-color: white;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-block-1{
+    background-color: rgba(30,144,255,255);
+    height: 90%;
+    width: 50%;
+    border-style: dashed;
+}
+
+.row-block-2{
+    background-color: rgba(255,192,203,255);
+    height: 90%;
+    width: 30%;
+    border-style: dashed;
+}
+
+.row-4{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    background-color: rgba(211,211,211,255);
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-4{
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: lightgray;
+    height: 1500px;
+}
+
+.row-5{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    background-color: white;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-block-green{
+    display: flex;
+    flex-wrap: wrap;
+    height: 90%;
+    width: 80%;
+    background-color: green;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+/* DA FIXARE */
+.container-5{
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: rgba(35,39,42,255);
+    height: 900px;
+}
+
+.row-6{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    background-color: rgba(35,39,42,255);
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-block-pink{
+    background-color: rgba(255,192,203,255);
+    height: 90%;
+    width: 30%;
+    border-style: dashed;
+}
+
+.row-block-green-1{
+    background-color: rgba(32,178,170,255);
+    height: 90%;
+    width: 10%;
+    
+}
+
+.row-block-green-2{
+    background-color: rgba(32,178,170,255);
+    height: 90%;
+    width: 10%;
+    border-top: dashed;
+    border-bottom: dashed;
+    border-left-color: white;
+    
+}
+
+.row-block-green-3{
+    background-color: rgba(32,178,170,255);
+    height: 90%;
+    width: 10%;
+    border-style: dashed;
+    border-left-color: white;
+}
+
+/* / DA FIXARE */
+.container-6{
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: lightgray;
+    height: 60px;
+}
+
+.row-7{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    background-color: rgba(173,216,230,255);
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    margin-left: 380px;
+    margin-right: 380px;
+}
+
+.row-item-logo{
+    background-color: gold;
+    height: 50%;
+    margin-right: 500px;
+    border-style: dashed;
+    
+}
+
+.row-item-bottone{
+    background-color: gold;
+    height: 50%;
+    margin-left: 500px;
+    border-style: dashed;
+    
+}

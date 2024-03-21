@@ -1,9 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; /* imposta il modo in cui vengono calcolate la larghezza e l'altezza totali di un elemento */
 }
 
+/* PRIMO BLOCCO */
 .container{
     max-width: 1920px;
     margin: 0 auto;
@@ -13,20 +14,20 @@
 
 .row{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* imposta se gli elementi flessibili vengono forzati su una riga o possono essere disposti su più righe */
     height: 100%;
     background-color: rgba(173,216,230,255);
     border: 1px solid black;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* definisce il modo in cui il browser distribuisce lo spazio tra e attorno agli elementi di contenuto lungo l' asse principale di un contenitore flessibile e l'asse in linea di un contenitore a griglia */
+    align-items: center; /*  imposta il align-selfvalore su tutti i figli diretti come gruppo */
 }
 
 .row-item-1{
     background-color: gold;
     height: 50%;
     width: 20%;
-    border-style: dashed;
-    text-align: left;
+    border-style: dashed; /* imposta lo stile della linea per tutti e quattro i lati del bordo di un elemento. */
+    text-align: left; /* imposta l'allineamento orizzontale del contenuto a livello in linea all'interno di un elemento di blocco o di un riquadro di cella di tabella */
 }
 
 .row-item-2{
@@ -46,6 +47,7 @@
     text-align: right;
 }
 
+/* SECONDO BLOCCO */
 .container-2{
     max-width: 1920px;
     margin: 0 auto;
@@ -70,6 +72,7 @@
     border-style: dashed;
 }
 
+/* TERZO BLOCCO */
 .container-3{
     max-width: 1920px;
     margin: 0 auto;
@@ -111,6 +114,7 @@
     align-items: center;
 }
 
+/* QUARTO BLOCCO */
 .container-4{
     max-width: 1920px;
     margin: 0 auto;
@@ -139,6 +143,7 @@
     align-items: center;
 }
 
+/* QUINTO BLOCCO */
 /* DA FIXARE */
 .container-5{
     max-width: 1920px;
@@ -188,8 +193,10 @@
     border-style: dashed;
     border-left-color: white;
 }
-
 /* / DA FIXARE */
+
+/* DA FIXARE */
+/* SESTO BLOCCO */
 .container-6{
     max-width: 1920px;
     margin: 0 auto;
@@ -224,3 +231,4 @@
     border-style: dashed;
     
 }
+/* / DA FIXARE */
